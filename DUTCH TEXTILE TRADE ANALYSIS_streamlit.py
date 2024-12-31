@@ -9,7 +9,7 @@ st.set_page_config(
 
 @st.cache_data()
 def load_data():
-    df = pd.read_csv(r'C:\Users\manav\Desktop\miniproj\Dutchtrade1.csv')
+    df = pd.read_csv(r'{data file location}')
     return df
 
 df = load_data()
